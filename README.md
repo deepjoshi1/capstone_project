@@ -99,13 +99,13 @@ What metrics will be used to measure the success of the model?
    <td>
 
 
-<img src="images/image4.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image5.jpg" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
 
 
-<img src="images/image3.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image6.jpg" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
@@ -126,13 +126,13 @@ What metrics will be used to measure the success of the model?
    <td>
 
 
-<img src="images/image3.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image4.jpg" width="" alt="alt_text" title="image_tooltip">
 
    </td>
    <td>
 
 
-<img src="images/image6.jpg" width="" alt="alt_text" title="image_tooltip">
+<img src="images/image8.jpg" width="" alt="alt_text" title="image_tooltip">
 
    </td>
   </tr>
