@@ -86,6 +86,58 @@ What metrics will be used to measure the success of the model?
 
 ```convert "accept/*.jpeg[256x]" -set filename:base "%[basename]" "accept_256/%[filename:base].jpeg" ```
 
+## Example Accepted Images
+
+
+<table>
+  <tr>
+   <td>
+
+<img src="images/image1.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+
+
+<img src="images/image2.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+
+
+<img src="images/image3.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+</table>
+
+
+
+## Example Rejected Images
+
+
+<table>
+  <tr>
+   <td>
+
+<img src="images/image4.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+
+
+<img src="images/image5.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+
+
+<img src="images/image6.jpg" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+  </tr>
+</table>
+
 
 
 
@@ -112,4 +164,12 @@ The ROC curve shows that the model is able to distinguish between the two classe
 **In the given ROC curve,** it appears that a threshold around **0.2-0.3** might offer a good balance between TPR and FPR, as it's relatively close to the top-left corner.
 
 ![alt_text](images/image2.png "image_tooltip")
+
+# Next Steps:
+- **Experiment with alternative feature extraction techniques** to enhance model performance.
+- **Optimize model parameters** using GridSearchCV or RandomizedSearchCV.
+- **Evaluate additional metrics**, such as precision, recall, and F1-score, to ensure a balanced classification.
+
+# Outline of project
+- [Link to notebook](https://github.com/deepjoshi1/capstone_project/blob/52154fdbd2244b0eff6fc8111d898049c3a02cda/Capstone_Assignment_Initial_Report_and_Exploratory_Data_Analysis.ipynb)
 
