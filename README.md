@@ -141,7 +141,7 @@ What metrics will be used to measure the success of the model?
 
 
 
-# Methodology
+# RandomForestClassifier Baseline Model Methodology
 
 Images from each category were resized to 256x256 pixels using the CV2 module. These images were then converted into one-dimensional arrays using the flatten method.
 The dataset was split using Scikit-learn’s `train_test_split` method, with 20% allocated for testing. For baseline classification, Scikit-learn’s RandomForestClassifier was utilized with `n_estimators=256`.
@@ -164,6 +164,36 @@ The ROC curve shows that the model is able to distinguish between the two classe
 **In the given ROC curve,** it appears that a threshold around **0.2-0.3** might offer a good balance between TPR and FPR, as it's relatively close to the top-left corner.
 
 ![alt_text](images/image2.png "image_tooltip")
+
+# **CNN Model**
+
+## **Performance Summary**
+- The model was trained for 30 epochs.
+- Training and validation accuracy improved over epochs, showing that the model learned to classify the images.
+- The training accuracy reached approximately 87%, and the validation accuracy reached approximately 83% by the end of training.
+- Both training and validation loss decreased, indicating that the model effectively learned the underlying patterns in the data.
+
+## Test Performance
+- The model was evaluated on the validation dataset.
+- The test accuracy was approximately 83%, which is similar to the final validation accuracy.
+- The train accuracy was approximately 87%.
+
+![alt_text](images/image9.png "image_tooltip")
+
+## Summary
+
+The CNN model demonstrated good performance on the image classification task. The training metrics indicate that the model learned effectively, and the test accuracy suggests that it generalizes reasonably well to unseen data.
+
+The model uses a relatively simple architecture and yet achieves high accuracy. This suggests that the features learned by the CNN are effective for this classification task.
+
+## Next Steps
+
+While the model performs well, there are several avenues for further improvement:
+
+* **Further Hyperparameter Tuning**: Experimenting with different learning rates, batch sizes, optimizers, or the number of epochs could lead to better results.
+* **Model Architecture Exploration**: Trying deeper or more complex CNN architectures might capture more intricate patterns in the images.
+* **Data Augmentation**: Applying more aggressive data augmentation techniques could help to improve the model's generalization and robustness.
+* **Additional Data**: Training the model on a larger and more diverse dataset could further enhance its performance.
 
 # Next Steps:
 - **Experiment with alternative feature extraction techniques** to enhance model performance.
